@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Date
 %define pnam	Chinese
-Summary:	Date::Chinese - Calculate dates in the Chinese calendar
+Summary:	Date::Chinese - calculate dates in the Chinese calendar
 Summary(pl):	Date::Chinese - obliczanie dat w kalendarzu chiñskim
 Name:		perl-Date-Chinese
 Version:	1.03
