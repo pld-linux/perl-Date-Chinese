@@ -11,7 +11,7 @@ Name:		perl-Date-Chinese
 Version:	1.03
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	eacb27452890572fadf9d5b6b137d3ff
@@ -21,10 +21,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Perlish interface to Chinese Calendar.
+Date::Chinese is Perlish interface to the Chinese Calendar.
 
 %description -l pl
-Perlowy interfejs do kalendarza chiñskiego.
+Date::Chinese stanowi interfejs perlowy do kalendarza chiñskiego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-1.3
