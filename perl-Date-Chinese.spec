@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Date
-%define	pnam	Chinese
+%define		pdir	Date
+%define		pnam	Chinese
 Summary:	Date::Chinese - calculate dates in the Chinese calendar
 Summary(pl):	Date::Chinese - obliczanie dat w kalendarzu chiñskim
 Name:		perl-Date-Chinese
