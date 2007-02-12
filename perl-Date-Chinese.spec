@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Chinese
 Summary:	Date::Chinese - calculate dates in the Chinese calendar
-Summary(pl):	Date::Chinese - obliczanie dat w kalendarzu chiñskim
+Summary(pl.UTF-8):   Date::Chinese - obliczanie dat w kalendarzu chiÅ„skim
 Name:		perl-Date-Chinese
 Version:	1.03
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Date::Chinese is Perlish interface to the Chinese Calendar.
 
-%description -l pl
-Date::Chinese stanowi interfejs perlowy do kalendarza chiñskiego.
+%description -l pl.UTF-8
+Date::Chinese stanowi interfejs perlowy do kalendarza chiÅ„skiego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-1.3
