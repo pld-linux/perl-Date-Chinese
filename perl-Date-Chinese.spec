@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Chinese
 Summary:	Date::Chinese - calculate dates in the Chinese calendar
-Summary(pl.UTF-8):   Date::Chinese - obliczanie dat w kalendarzu chińskim
+Summary(pl.UTF-8):	Date::Chinese - obliczanie dat w kalendarzu chińskim
 Name:		perl-Date-Chinese
 Version:	1.03
 Release:	1
