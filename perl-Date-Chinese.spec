@@ -8,13 +8,13 @@
 Summary:	Date::Chinese - calculate dates in the Chinese calendar
 Summary(pl.UTF-8):	Date::Chinese - obliczanie dat w kalendarzu chińskim
 Name:		perl-Date-Chinese
-Version:	1.03
-Release:	2
+Version:	1.12
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	eacb27452890572fadf9d5b6b137d3ff
+# Source0-md5:	aba4a151ecf84acd9091ee8f56a1d50f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -27,7 +27,7 @@ Date::Chinese is Perlish interface to the Chinese Calendar.
 Date::Chinese stanowi interfejs perlowy do kalendarza chińskiego.
 
 %prep
-%setup -q -n %{pdir}-%{pnam}-1.3
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL \
