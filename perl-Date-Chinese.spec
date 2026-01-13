@@ -8,7 +8,7 @@ Summary:	Date::Chinese - calculate dates in the Chinese calendar
 Summary(pl.UTF-8):	Date::Chinese - obliczanie dat w kalendarzu chińskim
 Name:		perl-Date-Chinese
 Version:	1.12
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
